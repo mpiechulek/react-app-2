@@ -6,19 +6,19 @@ const MainSegment4 = () => {
 
     return (
 
-        <div className="main-container__segment-4">
+        <section className="main-container__segment-4">
 
             <div className="main-segment-4-wrapper">
 
                 <div className="main-segment-4-wrapper__wrap">
 
-                    <img className="main-segment-image-4 margin-bottom-xsmall" src={image_4_1} alt="image_4_1" />
+                    <img className="main-segment-4-image margin-bottom-xsmall" src={image_4_1} alt="image_4_1" />
 
                     <h3 className="header-main-3 header-main-3--white margin-bottom-xsmall">History</h3>
 
                     <p className="paragraph-main paragraph-main--white margin-bottom-xsmall">
-                        
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, laboriosam? Illum, sunt recusandae repellat 
+
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, laboriosam? Illum, sunt recusandae repellat
 
                     </p>
 
@@ -26,13 +26,9 @@ const MainSegment4 = () => {
 
                 </div>
 
-            </div>
-
-            <div className="main-segment-4-wrapper main-segment-4-wrapper--margin-top ">
-
                 <div className="main-segment-4-wrapper__wrap main-segment-4-wrapper__wrap--margin-top">
 
-                    <img className="main-segment-image-4 margin-bottom-xsmall" src={image_4_2} alt="image_4_2" />
+                    <img className="main-segment-4-image margin-bottom-xsmall" src={image_4_2} alt="image_4_2" />
 
                     <h3 className="header-main-3 header-main-3--white margin-bottom-xsmall">Culture</h3>
 
@@ -46,13 +42,9 @@ const MainSegment4 = () => {
 
                 </div>
 
-            </div>
-
-            <div className="main-segment-4-wrapper">
-
                 <div className="main-segment-4-wrapper__wrap">
 
-                    <img className="main-segment-image-4 margin-bottom-xsmall" src={image_4_3} alt="image_4_3" />
+                    <img className="main-segment-4-image margin-bottom-xsmall" src={image_4_3} alt="image_4_3" />
 
                     <h3 className="header-main-3 header-main-3--white margin-bottom-xsmall">Beuty</h3>
 
@@ -68,7 +60,7 @@ const MainSegment4 = () => {
 
             </div>
 
-        </div>
+        </section>
     )
 }
 

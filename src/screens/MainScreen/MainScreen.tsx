@@ -8,7 +8,7 @@ const MainScreen = () => {
 
     return (
 
-        <div className="main-container">
+        <article className="main-container">
 
             <MainSegment1/>
 
@@ -20,7 +20,7 @@ const MainScreen = () => {
                     
             <MainSegment5/>           
 
-        </div>
+        </article>
     )
 }
 

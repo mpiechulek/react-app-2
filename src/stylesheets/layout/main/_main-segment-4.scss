@@ -3,32 +3,39 @@
     &__segment-4 {
 
         position: relative;
-        top: -45rem;
-        height: 120rem;
+        top: -44rem;        
         background-color: rgba(27, 27, 27, 0.9);
-        -webkit-clip-path: polygon(0 0, 100% 25%, 100% 74%, 0% 100%);
-        clip-path: polygon(0 0, 100% 25%, 100% 74%, 0% 100%);
+        -webkit-clip-path: polygon(0 0, 100% 20%, 100% 74%, 0% 100%);
+        clip-path: polygon(0 0, 100% 20%, 100% 74%, 0% 100%);
         z-index: 4;
 
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 30rem 0;
 
+        @include respond(lg) {  
 
-        @include respond(lg) {
-         
-            top: -55rem;
-            flex-direction: column;
-            height: auto;
+            -webkit-clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
+            clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);        
 
         }
 
-        @include respond(md) {
+        @include respond(md) {            
+        
+            -webkit-clip-path: polygon(0 0, 100% 6%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 6%, 100% 100%, 0% 100%);
+            margin-bottom: -45rem;
+            padding: 30rem 0 10rem 0;
 
-             top: -38rem;
-             -webkit-clip-path: polygon(0 0, 100% 15%, 100% 74%, 0% 100%);
-             clip-path: polygon(0 0, 100% 15%, 100% 74%, 0% 100%);
+
+        }
+
+        @include respond(sm) {  
+            
+            padding: 15rem 0 10rem 0;
+            top: -25rem;            
 
         }
 
@@ -38,16 +45,11 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
+           
+            @include respond(md) {                
 
-            &--margin-top {
+                flex-direction: column;
 
-                margin-top: 15rem;
-
-                @include respond(lg) {
-
-                    margin-top: 0;
-                         
-                }
             }
 
             &__wrap {
@@ -59,40 +61,52 @@
                 align-items: flex-start;
                 justify-content: center;
 
+                @include respond(lg) {
+            
+                    width: 28.8rem;      
+        
+                }
 
-                .main-segment-image-4 {
+                @include respond(md) {
+            
+                    width: 50rem;      
+        
+                }
 
-                    object-fit: contain;
-                    max-width: 25rem;
-                    transition: all 0.35s ease-in-out;
+                @include respond(sm) {
+            
+                    width: 80%;      
+        
+                }
+              
 
-                    &:hover {
-                        filter: grayscale(1);
+                &--margin-top {
+
+                    margin-top: 15rem;
+
+                    @include respond(md) {
+
+                        margin-top: 0rem;
+
                     }
 
                 }
 
-            }
+                .main-segment-4-image {
 
-            .main-segment-4-wrapper:first-child {
+                    object-fit: contain;
+                    max-width: 100%;
+                    transition: all 0.35s ease-in-out;
 
-                @include respond(lg) {
+                    &:hover {
 
-                    margin-top: 50rem;
-                         
+                        filter: grayscale(1);
+
+                    }
+
                 }
 
-            }
-
-            .main-segment-4-wrapper:nth-child(3) {
-
-                @include respond(lg) {
-
-                    margin-bottom: 20rem;
-                         
-                }
-
-            }
+            }   
 
         }
 

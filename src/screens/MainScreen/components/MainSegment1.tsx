@@ -4,7 +4,7 @@ const MainSegment_1 = () => {
 
     return (
 
-        <div className="main-container__segment-1">
+        <section className="main-container__segment-1">
 
             <div className="main-segment-1-wrapper">
 
@@ -16,7 +16,7 @@ const MainSegment_1 = () => {
 
                 </h1>
 
-                <p className="paragraph-main paragraph-main--white margin-bottom-small ">
+                <p className="paragraph-main paragraph-main--white margin-bottom-small main-segment-1-hide-element">
 
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quam cumque consequatur vitae non, aliquid perspiciatis quis iusto unde voluptates, vero illo odio modi animi facilis, obcaecati velit iure doloremque?
 
@@ -24,7 +24,7 @@ const MainSegment_1 = () => {
 
             </div>
 
-        </div>
+        </section>
 
     )
 }

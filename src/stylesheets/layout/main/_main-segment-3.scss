@@ -32,6 +32,12 @@
             
             @include respond(md) {
 
+                width: 60%;
+
+            }
+
+            @include respond(sm) {
+
                 width: 80%;
 
             }

@@ -7,11 +7,14 @@
 @import './base/helpers';
 @import './base/buttons';
 
+@import './components/images';
+
 @import './layout/main/main-segment-1';
 @import './layout/main/main-segment-2';
 @import './layout/main/main-segment-3';
 @import './layout/main/main-segment-4';
 @import './layout/main/main-segment-5';
+@import './layout/main-background-shadow';
 
 @import './pages/main';
 

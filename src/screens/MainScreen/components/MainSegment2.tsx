@@ -4,7 +4,7 @@ const MainSegment2 = () => {
 
     return (
 
-        <div className="main-container__segment-2">
+        <section className="main-container__segment-2">
 
             <img className="main-segment-icon-2 margin-bottom-small " src={backImageOne} alt="icon" />
 
@@ -55,7 +55,7 @@ const MainSegment2 = () => {
 
             {/*  */}          
 
-        </div>
+        </section>
 
     )
 }

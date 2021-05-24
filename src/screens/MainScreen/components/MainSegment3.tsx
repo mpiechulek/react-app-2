@@ -5,7 +5,7 @@ const MainSegment3 = () => {
 
     return (
 
-        <div className="main-container__segment-3">
+        <section className="main-container__segment-3">
 
             <div className="main-segment-3-wrapper">
 
@@ -27,7 +27,7 @@ const MainSegment3 = () => {
 
             <img className="main-segment-image-3" src={image_1} alt="image_2" />
 
-        </div>
+        </section>
     )
 }
 

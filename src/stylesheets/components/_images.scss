@@ -1,0 +1,19 @@
+.letters-image-top {
+
+    position: fixed; 
+
+    @include respond(xl) {
+
+        width: 6rem;
+        top: 2rem;
+        right: 3rem;
+
+    }
+
+    @include respond(lg) {
+
+        display: none;
+
+    }
+
+}

@@ -4,7 +4,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;    
+    align-items: center;  
+    position: relative; 
+    
 
     background-image: url('./../../assets/background/gold_scale/gold_scale.png');
     background-repeat: repeat;   
@@ -14,6 +16,7 @@
         background-color: none;       
         position: relative;
         width:110rem;   
+        z-index: 2;
        
         @include respond(lg) {
 

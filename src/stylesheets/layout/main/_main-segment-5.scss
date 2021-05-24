@@ -1,0 +1,23 @@
+.main-container {
+
+    &__segment-5 {   
+
+        position: relative;
+        max-width: 100%;
+        margin-top: -132rem;  
+
+        @include respond(md) {
+            
+            margin-top: -158rem;   
+
+        }
+        
+        .main-segment-image-5 {
+         
+             width: 100%;
+
+        }     
+
+    }
+
+}

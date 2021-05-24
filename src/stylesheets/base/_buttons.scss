@@ -1,0 +1,43 @@
+.btn {
+
+    color: white;
+    cursor: pointer;
+    background-color: $color-text-primary;
+    height: 4rem;
+    width: 12rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    transition: all 0.35s ease-in-out;
+
+    &--white {
+
+        background-color: white;
+        color: $color-text-primary;
+
+        &:hover {
+
+            background-color: #494949;
+            color: white;
+
+        }
+
+    }
+
+
+    &--dark {
+
+        color: white;
+        background-color: $color-text-primary;
+
+        &:hover {
+
+            background-color: #494949;
+
+        }
+
+    }
+
+}

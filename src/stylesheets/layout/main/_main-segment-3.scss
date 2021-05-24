@@ -1,0 +1,56 @@
+.main-container {
+
+    &__segment-3 {
+
+        position: relative;
+        top: -11rem;
+        z-index: 3;
+        background-color: white;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .main-segment-image-3 {
+
+            width: 100%;
+
+        }
+
+        .main-segment-3-wrapper {
+
+            position: absolute;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            top: -10rem;
+            width: 63rem;
+            z-index: 10;  
+            
+            @include respond(md) {
+
+                width: 80%;
+
+            }
+
+            .main-segment-icon-3 {
+
+                width: 8rem;
+
+
+                @include respond(md) {
+
+                    width: 4rem;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

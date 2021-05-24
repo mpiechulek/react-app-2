@@ -1,0 +1,101 @@
+.main-container {
+
+    &__segment-4 {
+
+        position: relative;
+        top: -45rem;
+        height: 120rem;
+        background-color: rgba(27, 27, 27, 0.9);
+        -webkit-clip-path: polygon(0 0, 100% 25%, 100% 74%, 0% 100%);
+        clip-path: polygon(0 0, 100% 25%, 100% 74%, 0% 100%);
+        z-index: 4;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+
+        @include respond(lg) {
+         
+            top: -55rem;
+            flex-direction: column;
+            height: auto;
+
+        }
+
+        @include respond(md) {
+
+             top: -38rem;
+             -webkit-clip-path: polygon(0 0, 100% 15%, 100% 74%, 0% 100%);
+             clip-path: polygon(0 0, 100% 15%, 100% 74%, 0% 100%);
+
+        }
+
+        .main-segment-4-wrapper {
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            &--margin-top {
+
+                margin-top: 15rem;
+
+                @include respond(lg) {
+
+                    margin-top: 0;
+                         
+                }
+            }
+
+            &__wrap {
+
+                padding: 1rem;
+                width: 30rem;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+
+
+                .main-segment-image-4 {
+
+                    object-fit: contain;
+                    max-width: 25rem;
+                    transition: all 0.35s ease-in-out;
+
+                    &:hover {
+                        filter: grayscale(1);
+                    }
+
+                }
+
+            }
+
+            .main-segment-4-wrapper:first-child {
+
+                @include respond(lg) {
+
+                    margin-top: 50rem;
+                         
+                }
+
+            }
+
+            .main-segment-4-wrapper:nth-child(3) {
+
+                @include respond(lg) {
+
+                    margin-bottom: 20rem;
+                         
+                }
+
+            }
+
+        }
+
+    }
+
+}

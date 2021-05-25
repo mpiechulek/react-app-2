@@ -6,25 +6,29 @@ import katagana_ing from './assets/images/800px-Shodō.svg.png';
 
 function App() {
 
-  let [isLoading, setIsLoading] = useState<boolean>(true); 
+  let [isLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
 
-    console.log('use layout  effect');
+    const interval = setInterval(() => {
 
-    setIsLoading(false);
+      setIsLoading(false);
 
-  }, [isLoading]);
+    }, 500);
+
+    return () => clearInterval(interval);
+
+  }, []);
 
   return (
 
-    <main className="main">     
+    <main className="main">
 
-      {isLoading &&  <LoadingScreen/>}
+      {isLoading && <LoadingScreen />}
 
       <MainScreen />
 
-      <div className="main-background-shadow"></div>    
+      <div className="main-background-shadow"></div>
 
       <img className='letters-image-top' src={katagana_ing} alt="letters" />
 

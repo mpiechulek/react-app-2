@@ -12,6 +12,13 @@
     font-weight: 600;
     transition: all 0.35s ease-in-out;
 
+    @include respond(sm) {
+
+        font-size: 1.6rem;
+        height: 5rem;
+        width: 15rem;
+    }
+
     &--white {
 
         background-color: white;

@@ -19,7 +19,7 @@ const MainSegment2 = () => {
             
                 <div className="main-segment-2-wrapper__wrap main-segment-2-wrapper__wrap--margin-bottom main-segment-2-wrapper__wrap--margin-right ">
 
-                    <p className="paragraph-main paragraph-main--white margin-bottom-xsmall">
+                    <p className="paragraph-main paragraph-main--white margin-bottom-small">
                         
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, repellat. Ipsam cupiditate suscipit doloremque repellendus aliquam. Pariatur.
                         
@@ -35,19 +35,19 @@ const MainSegment2 = () => {
 
                 <div className="main-segment-2-wrapper__wrap">
 
-                    <p className="paragraph-main paragraph-main--white margin-bottom-xsmall ">
+                    <p className="paragraph-main paragraph-main--white margin-bottom-small ">
 
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, repellat. Ipsam cupiditate suscipit doloremque repellendus aliquam. Pariatur.
 
                     </p>
 
-                    <p className="paragraph-main paragraph-main--white margin-bottom-xsmall ">
+                    <p className="paragraph-main paragraph-main--white margin-bottom-small ">
                         
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, repellat. Ipsam cupiditate suscipit doloremque repellendus aliquam. Pariatur.
                         
                     </p>
 
-                    <button className="btn btn--dark">Check more</button>
+                    <button className="btn btn--dark margin-top-small">Check more</button>
 
                 </div> 
 

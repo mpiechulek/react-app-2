@@ -12,11 +12,16 @@ const MainSegment_1 = () => {
 
                 <h1 className="header-main-1 margin-bottom-small ">
 
-                    Release your imagination, and make dreams come true
+                    Discover the undiscovered parts of Japan
 
                 </h1>
 
-                <p className="paragraph-main paragraph-main--white margin-bottom-small main-segment-1-hide-element">
+                <p className="
+                                paragraph-main 
+                                paragraph-main--white
+                                margin-bottom-small
+                                main-segment-1-hide-element"
+                >
 
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quam cumque consequatur vitae non, aliquid perspiciatis quis iusto unde voluptates, vero illo odio modi animi facilis, obcaecati velit iure doloremque?
 

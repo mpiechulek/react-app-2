@@ -1,19 +1,16 @@
-.letters-image-top {
+.letters-image-kata {
 
-    position: fixed; 
+    display: block;
+    position: absolute;
+    z-index: 10;
+    width: 20rem;
+    bottom: 7rem;
+    left: 7rem;
+    filter: invert(1);
 
-    @include respond(xl) {
-
-        width: 6rem;
-        top: 2rem;
-        right: 3rem;
-
-    }
-
-    @include respond(lg) {
+    @include respond(sm) {
 
         display: none;
-
     }
 
 }

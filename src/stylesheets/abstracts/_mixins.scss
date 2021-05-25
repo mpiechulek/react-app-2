@@ -10,6 +10,7 @@
 1920px + : Big desktop
 
 xl 1920 - extra large
+xlg 1580 - xlarge
 lg 1280 - large
 md 960 - medium
 sm 600 - small
@@ -45,10 +46,10 @@ xs 400 - extra small
             @content
         }; 
         // 1280px
-    }
+    } 
 
     @if $breakpoint == xl {
-        @media only screen and (min-width: 120em) {
+        @media only screen and (max-width: 120em) {
             @content
         }; 
         // 1920px

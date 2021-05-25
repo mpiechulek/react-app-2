@@ -22,7 +22,7 @@ const MainSegment4 = () => {
 
                     </p>
 
-                    <button className="btn btn--white">check out</button>
+                    <button className="btn btn--white margin-top-small">check out</button>
 
                 </div>
 
@@ -38,7 +38,7 @@ const MainSegment4 = () => {
 
                     </p>
 
-                    <button className="btn btn--white">check out</button>
+                    <button className="btn btn--white margin-top-small">check out</button>
 
                 </div>
 
@@ -54,7 +54,7 @@ const MainSegment4 = () => {
 
                     </p>
 
-                    <button className="btn btn--white">check out</button>
+                    <button className="btn btn--white margin-top-small">check out</button>
 
                 </div>
 

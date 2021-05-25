@@ -14,7 +14,7 @@ const MainSegment4 = () => {
 
                     <img className="main-segment-4-image margin-bottom-xsmall" src={image_4_1} alt="image_4_1" />
 
-                    <h3 className="header-main-3 header-main-3--white margin-bottom-xsmall">History</h3>
+                    <h1 className="header-main-3 header-main-3--white margin-bottom-xsmall">History</h1>
 
                     <p className="paragraph-main paragraph-main--white margin-bottom-xsmall">
 
@@ -30,7 +30,7 @@ const MainSegment4 = () => {
 
                     <img className="main-segment-4-image margin-bottom-xsmall" src={image_4_2} alt="image_4_2" />
 
-                    <h3 className="header-main-3 header-main-3--white margin-bottom-xsmall">Culture</h3>
+                    <h1 className="header-main-3 header-main-3--white margin-bottom-xsmall">Culture</h1>
 
                     <p className="paragraph-main paragraph-main--white margin-bottom-xsmall">
 
@@ -38,7 +38,7 @@ const MainSegment4 = () => {
 
                     </p>
 
-                    <button className="btn btn--white margin-top-small">check out</button>
+                    <button className="btn btn--white margin-top-small">Check out</button>
 
                 </div>
 
@@ -46,7 +46,7 @@ const MainSegment4 = () => {
 
                     <img className="main-segment-4-image margin-bottom-xsmall" src={image_4_3} alt="image_4_3" />
 
-                    <h3 className="header-main-3 header-main-3--white margin-bottom-xsmall">Beuty</h3>
+                    <h1 className="header-main-3 header-main-3--white margin-bottom-xsmall">Beauty</h1>
 
                     <p className="paragraph-main paragraph-main--white margin-bottom-xsmall">
 

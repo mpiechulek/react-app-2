@@ -1,29 +1,30 @@
-import React, { Suspense, useEffect, useState } from 'react';
-import MainScreen from './screens/MainScreen/MainScreen';
+import React, { lazy, Suspense, useEffect, useState } from 'react';
 import LoadingScreen from './screens/LoadingScreen/LoadingScreen';
 import './App.scss';
 
+const MainScreen = lazy(() => import('./screens/MainScreen/MainScreen'));
+
 function App() {
 
-  // let [isLoading, setIsLoading] = useState<boolean>(true);
+  let [isLoading, setIsLoading] = useState<boolean>(true);
 
-  // useEffect(() => {
+  useEffect(() => {
 
-  //   const interval = setInterval(() => {
+    const interval = setInterval(() => {
 
-  //     setIsLoading(false);
+      setIsLoading(false);
 
-  //   }, 500);
+    }, 500);
 
-  //   return () => clearInterval(interval);
+    return () => clearInterval(interval);
 
-  // }, []);
+  }, []);
 
   return (
 
     <main className="main">
 
-      {/* {isLoading && <LoadingScreen />} */}     
+      {/* {isLoading && <LoadingScreen />}      */}
 
       <Suspense fallback={<LoadingScreen />}>
 
